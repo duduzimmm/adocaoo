@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #e3e3e3;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header .btn-contato button, .hero-site button{
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* Estilo do header */
+header{
+    width: 100%;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 70px;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li a{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header .menu-desktop nav a:hover{
+    transform: scale(1.05);
+}
+
+header .btn-contato button{
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover, .hero-site button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Estilo do Hero */
+section.hero-site{
+    height: 98vh;
+    background-image: url(../imagens/fundooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black
+}
+
+.hero-site .interface{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span{
+    display: block;
+    font-weight: 600;
+}
+
+.hero-site .txt-hero p{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p span{
+    display: block;
+}
+
+/* Estilo das vantagens */
+section.vantagens{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.vantagens .itens-conteiner{
+    margin-bottom: 100px;
+}
+
+section.vantagens article.Apresentação h3{
+    text-align: right;
+}
+
+.vantagens .Apresentação{
+    margin-bottom: 100px;
+}
+
+.vantagens .CuidarAnimais{
+    margin-bottom: 100px;
+}
+
+.vantagens .AbandonarLegal{
+    margin-bottom: 100px;
+}
+
+.vantagens .AbandonoParque{
+    margin-bottom: 30px;
+}
+
+.vantagens .AbandonoParque-2{
+    margin-bottom: 100px;
+}
+
+.vantagens .Reprodução{
+    margin-bottom: 100px;
+}
+
+.vantagens .titulos1{
+    margin-bottom: 50px;
+}
+.vantagens .titulos2{
+    margin-bottom: 50px;
+}
+.vantagens .titulos3{
+    margin-bottom: 30px;
+}
+
+.vantagens .titulos4{
+    margin-bottom: 30px;
+}
+
+.vantagens .titulos5{
+    margin-bottom: 30px;
+}
+
+.vantagens .titulos6{
+    margin-bottom: 30px;
+}
+.vantagens .titulos7{
+    margin-bottom: 30px;
+}
+.vantagens .titulos8{
+    margin-bottom: 30px;
+}
+.vantagens .titulos9{
+    margin-bottom: 30px;
+}
+.vantagens .titulos10{
+    margin-bottom: 30px;
+}
+.vantagens .titulos11{
+    margin-bottom: 80px;
+}
+.vantagens .titulos12{
+    margin: 80px;
+}
+.vantagens .titulos13{
+    margin-bottom: 80px;
+}
+.vantagens .titulos14{
+    margin-bottom: 80px;
+}
+.vantagens .titulos15{
+    margin-bottom: 80px;
+}
+.vantagens .titulos16{
+    margin-bottom: 80px;
+}
+.vantagens .titulos17{
+    margin-bottom: 80px;
+}
+.vantagens .titulos18{
+    margin-bottom: 80px;
+}
+.vantagens .titulos19{
+    margin-bottom: 80px;
+}
+.vantagens .imagens1{
+    max-width: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 0 250px;
+}
+.vantagens .imagens1{
+    margin-bottom: 120px;
+}
+.vantagens .imagens2{
+    max-width: 40px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 0 285px;
+}
+.vantagens .jogo{
+    margin-bottom: 100px;
+}
